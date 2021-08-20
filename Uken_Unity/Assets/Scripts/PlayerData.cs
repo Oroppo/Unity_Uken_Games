@@ -109,7 +109,7 @@ public class PlayerData
     // Will add missions until we reach 4 missions.
     public void CheckMissionsCount()
     {
-        while (missions.Count < 5)
+        while (missions.Count < 4)
             AddMission();
     }
 

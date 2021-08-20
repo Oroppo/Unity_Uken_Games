@@ -109,7 +109,13 @@ public class CharacterInputController : MonoBehaviour
 		m_CurrentLane = k_StartingLane;
 		characterCollider.transform.localPosition = Vector3.zero;
 
-        currentLife = maxLife;
+		//currentLife = maxLife;
+		
+		//for whatever reason maxLife was not properly defaulting to 5 on initialization, therefore leaving currentLife at 3.
+		//Embarrassingly, I don't know why this is so I'll just hard code currentLife to be 5 for now
+
+		currentLife = 5;
+		
 
 		m_Audio = GetComponent<AudioSource>();
 

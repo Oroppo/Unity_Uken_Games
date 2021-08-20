@@ -106,10 +106,10 @@ public class PlayerData
 
     // Mission management
 
-    // Will add missions until we reach 2 missions.
+    // Will add missions until we reach 4 missions.
     public void CheckMissionsCount()
     {
-        while (missions.Count < 2)
+        while (missions.Count < 5)
             AddMission();
     }
 

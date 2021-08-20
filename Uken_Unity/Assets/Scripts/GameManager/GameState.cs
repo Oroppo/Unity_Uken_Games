@@ -75,7 +75,7 @@ public class GameState : AState
     protected bool m_AdsInitialised = false;
     protected bool m_GameoverSelectionDone = false;
 
-    protected int k_MaxLives = 3;
+    protected int k_MaxLives = 5;
 
     protected bool m_IsTutorial; //Tutorial is a special run that don't chance section until the tutorial step is "validated".
     protected int m_TutorialClearedObstacle = 0;
@@ -335,17 +335,21 @@ public class GameState : AState
         coinText.text = trackManager.characterController.coins.ToString();
         premiumText.text = trackManager.characterController.premium.ToString();
 
-		for (int i = 0; i < 3; ++i)
+		for (int i = 0; i < 5; ++i)
 		{
 
 			if(trackManager.characterController.currentLife > i)
 			{
-				m_LifeHearts[i].color = Color.white;
-			}
+                //Debug.Log($"Before: {m_LifeHearts[i]} is {m_LifeHearts[i].color}");
+                m_LifeHearts[i].color = Color.white;
+                
+            }
 			else
 			{
-				m_LifeHearts[i].color = Color.black;
-			}
+                
+                m_LifeHearts[i].color = Color.black;
+                
+            }
 		}
 
         scoreText.text = trackManager.score.ToString();

@@ -19,3 +19,10 @@ Once you've chosen where you'll place the repository, go into your directory and
 Open that file using the Unity Editor (if you do not see this option that means you don't have the correct unity version installed!)
 Once you've opened the file you're done!
 now you can simply Build and run for the supported platforms or tweak the game further for your own uses.
+
+## The PDF Files are located in the main Repository
+Please use your PDF viewing software of choice and open the file named:
+```GameplayTestCases```
+This will give you a couple of snapshots of the code.
+if you'd like nothing but Raw Text, I've also included a seperate PDF with that for easy conversion as well. it's also located in the main Repo and is named:
+ ```GameplayTestCasesRaw```

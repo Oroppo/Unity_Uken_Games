@@ -6,6 +6,9 @@
 3.  Increase the amount of active missions from 2 to 4 in the Mission List.
 4.  Create a repo on github and commit the files that you've staged in your local repository.
 5.  Add a detailed instruction on how to setup/launch your project.
+6.  Write gameplay test cases based on Trash Dash gameplay logic.
+7.  Add a PDF document to your Trash Dash repo.
+8.  Add a detailed instruction on how to find the PDF file in your project.
 
 ## To open this project you will need:
 1. Unity Hub
